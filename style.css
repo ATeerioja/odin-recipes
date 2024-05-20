@@ -16,7 +16,7 @@ h2 {
   font-weight: 600;
 }
 
-ul {
+.Recipes {
   padding: 10px;
   list-style-type: none;
   width: 25%;
@@ -31,4 +31,8 @@ a:link, a:visited, a:hover, a:active{
   background-color: aliceblue;
   text-align: center;
 
+}
+
+a:hover {
+  color: white;
 }
