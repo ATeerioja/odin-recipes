@@ -35,3 +35,25 @@ a:link, a:visited, a:hover, a:active{
 a:hover {
   color: white;
 }
+
+h2, h3 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: 10px auto;
+}
+
+div.left-box{
+  display: inline-block;
+  width: 400px;
+  margin-left: auto;
+}
+
+div.right-box{
+  display: inline-block;
+  width: 400px;
+  margin-right: auto;
+}
