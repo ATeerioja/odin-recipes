@@ -1,52 +1,37 @@
-.Main-Title{
-  color: blue;
-  background-color: aqua;
+* {
+background-color: rgb(219, 216, 212);
+list-style: none;
+}
+
+.main-title{
+  color: rgb(0, 0, 0);
+  background-color: rgb(137, 51, 51);
   font-family: 'Times New Roman', Times, serif;
-  font-size: 48px;
-  font-weight: 800;
+  width: 300px;
+  margin: 10px auto;
   text-align: center;
 }
 
-h2, h3{
+div.menu-box{
+  width: 300px;
+  margin: 10px auto;
   text-align: center;
-  color: blue;
-  background-color: aqua;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 36px;
-  font-weight: 600;
 }
 
-.Recipes {
-  padding: 10px;
-  list-style-type: none;
-  width: 25%;
-  margin: 0 auto;
+ul.menu{
+  display: inline-block;
+  text-align: left;
 }
 
 a:link, a:visited, a:hover, a:active{
   text-decoration: none;
-  color: aqua;
+  color: rgb(0, 0, 0);
   font-size: 24px;
   font-family:monospace;
-  background-color: aliceblue;
+  background-color: rgb(137, 51, 51);
   text-align: center;
-
 }
 
 a:hover {
   color: white;
-}
-
-p {
-  font-family: 'Times New Roman', Times, serif;
-  color: white;
-  background-color: aqua;
-}
-
-li {
-  font-family: monospace;
-}
-
-h4 {
-  text-indent: 106px;
 }
